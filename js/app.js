@@ -5,9 +5,12 @@
  *
  * @type {angular.Module}
  */
-angular.module('todomvc', ['ngRoute'])
+(function(){
+
+	'use strict';
+	
+	angular.module('todomvc', ['ngRoute'])
 	.config(function ($routeProvider) {
-		'use strict';
 
 		var routeConfig = {
 			controller: 'TodoCtrl',
@@ -30,3 +33,4 @@ angular.module('todomvc', ['ngRoute'])
 				redirectTo: '/'
 			});
 	});
+})();
