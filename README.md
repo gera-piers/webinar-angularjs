@@ -11,3 +11,5 @@ If you want to clone it just follow these steps:
 3. Navigate to your selected dir
 
 4. Type: "git clone https://github.com/gera-piers/webinar-angularjs.git"
+
+5. Double click on the index.html file
